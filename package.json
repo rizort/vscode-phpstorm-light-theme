@@ -1,0 +1,46 @@
+{
+  "name": "phpstorm-light-theme-109",
+  "displayName": "PhpStorm Light Theme 109",
+  "description": "A light theme",
+  "version": "1.0.0",
+  "publisher": "rizort",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": ["Themes"],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "PhpStorm Light",
+        "uiTheme": "vs",
+        "path": "./themes/light-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "editor.fontFamily": "JetBrains Mono",
+      "editor.fontSize": 12,
+      "editor.fontLigatures": false,
+      "editor.lineHeight": 19,
+
+      "phpParameterHint.hintOnlyLine": false,
+      "editor.inlayHints.fontSize": 11,
+      "editor.inlayHints.fontFamily": "JetBrains Mono",
+        "workbench.colorCustomizations": {
+        "editorInlayHint.foreground": "#777777",
+        "editorInlayHint.background": "#f5f5f5"
+      }
+
+    },
+    "semanticHighlighting": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rizort/vscode-phpstorm-light-theme"
+  },
+  "keywords": [
+    "theme",
+    "light",
+    "code"
+  ]
+}
